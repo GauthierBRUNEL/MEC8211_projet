@@ -1,0 +1,338 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                    Altair OptiStruct(TM) 2022.3                    **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **   OptiStruct includes an enhanced proprietary version of NASTRAN   **
+ **                                                                    **
+ **                                                                    **
+ **                Windows 10  (Build 9200)  PC-GMC-20                 **
+ **         4 CPU:  Intel(R) Xeon(R) CPU E5-1607 v4 @ 3.10GHz          **
+ **                    8712 MB RAM,  18738 MB swap                     **
+ **                                                                    **
+ ** Build: 1161285uwn33223_Ce64RB68UH14M:214991-000  46004004000000004 **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2023                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:/Program Files/Altair/2022.3/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed unless there is
+ a subsequent MSGLMT definition to limit error or warning messages.
+ You can also suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+  
+  
+ *** INFORMATION # 815
+ The total number of rigid elements, whose rotational dependent d.o.f.
+ are removed because there is no need to constrain those d.o.f., is 1.
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : test1.fem
+  Output files prefix          : test1
+  Model read from files:
+ (*1)	    test1.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :     26766
+  Total # of Elements                  :     13928
+  Total # of Rigid Elements            :         1
+  Total # of Rigid Element Constraints :      3399
+  Total # of Degrees of Freedom        :     83700
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :   3208230
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTETRA   Elements   :    13928
+
+  Load and Boundary Information
+  -----------------------------
+
+   LOAD and TEMP Sets:         1
+   SPC   Sets        :         2
+
+  Material and Property Information
+  ---------------------------------
+
+   PSOLID Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  -------  --------------------- 
+   Subcase ID    SPC ID   LOAD ID  Preloading Subcase ID
+   ----------   --------  -------  --------------------- 
+        1            2          1
+        2            3          1
+   ----------   --------  -------  --------------------- 
+
+   Run Type                        :   Analysis Only (No design elements)
+   Run at location                 : E:/
+   Scratch file directory          : E:/
+                                     Free space:  17636 MB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Static Memory (RAM) Allocated in Preprocessor           :     800 MB
+ MUMPS Solver will Run In-Core with Estimated Memory     :     452 MB
+ Estimated Total Memory (RAM)                            :    1252 MB
+ 
+ Estimated Memory (RAM) for Out-of-Core Solution         :     288 MB
+ Estimated Memory (RAM) for In-Core Solution             :     544 MB
+ Recommended # of Processes (-np) for Load Decomposition      :       3
+ (Note: The Minimum Memory Requirement is limited by Assembly Module.)       
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :      16 MB
+ Estimated Scratch Disk Space for In-Core Solution       :      58 MB
+ Estimated Scratch Disk Space for Out-of-Core Solution   :     288 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ Element # 14814, element type TET10.
+ WARNING - Outside of recommended range: Face Vertex Angle =    13.953    
+           lower limit =    15.000    
+  
+ Element # 14816, element type TET10.
+ WARNING - Outside of recommended range: Face Vertex Angle =    13.953    
+           lower limit =    15.000    
+  
+ Element # 18506, element type TET10.
+ WARNING - Outside of recommended range: Edge Angle =    79.506    
+           upper limit =    75.000    
+  
+ Element # 21739, element type TET10.
+ WARNING - Outside of recommended range: Edge Angle =    78.049    
+           upper limit =    75.000    
+
+ Element Quality Check Summary
+ -----------------------------
+ Total # of elements that exceeded recommended range (warning) =     4
+ Note: Only element with the highest violation of each check is listed below.
+
+ Recommended range violations:
+ ------------------------------------------------------------------------------
+ Element     Property          # of     Recommended Range    Max.  Viol.  Elem.
+                               Viol.     Lower     Upper    Value  type    No.
+ ------- ------------------- -------- --------- --------- --------- --- -------
+ TET10   Edge Angle                 2        --     75.00     79.51  U    18506
+ TET10   Face Vertex Angle          2     15.00    165.00     13.95  L    14814
+ 
+  
+ *** INFORMATION # 3454
+ MPC, RBE# (and other rigids) and JOINTG constraints for
+ subcase 1 will be enforced with lagrange multipliers.
+  
+ List of Auto-SPC d.o.f.s for loadcase   1
+ Total number of Auto-SPC d.o.f.s = 3399
+  
+ 		------------------------------
+ 		  Grid No.         Component
+ 		------------------------------
+                         62             4 5 6
+                         63             4 5 6
+                         64             4 5 6
+                         65             4 5 6
+                        277             4 5 6
+                        278             4 5 6
+                        279             4 5 6
+                        280             4 5 6
+                        356             4 5 6
+                        357             4 5 6
+                        358             4 5 6
+                        359             4 5 6
+                       1127             4 5 6
+                       1128             4 5 6
+                       1129             4 5 6
+                       1130             4 5 6
+                       1197             4 5 6
+                       1198             4 5 6
+                       1199             4 5 6
+                       1200             4 5 6
+                       1215             4 5 6
+                       1216             4 5 6
+                       1217             4 5 6
+                       1218             4 5 6
+                       1220             4 5 6
+                       1221             4 5 6
+                       1222             4 5 6
+                       1223             4 5 6
+                       1224             4 5 6
+                       1225             4 5 6
+                       1227             4 5 6
+                       1228             4 5 6
+                       1229             4 5 6
+                       1230             4 5 6
+ 		------------------------------
+  
+	Because of PARAM, PRGPST, 100, Auto-SPC printing is limited to 100 dofs.
+  
+  
+ *** INFORMATION # 3454
+ MPC, RBE# (and other rigids) and JOINTG constraints for
+ subcase 2 will be enforced with lagrange multipliers.
+  
+ List of Auto-SPC d.o.f.s for loadcase   2
+ Total number of Auto-SPC d.o.f.s = 3399
+  
+ 		------------------------------
+ 		  Grid No.         Component
+ 		------------------------------
+                         62             4 5 6
+                         63             4 5 6
+                         64             4 5 6
+                         65             4 5 6
+                        277             4 5 6
+                        278             4 5 6
+                        279             4 5 6
+                        280             4 5 6
+                        356             4 5 6
+                        357             4 5 6
+                        358             4 5 6
+                        359             4 5 6
+                       1127             4 5 6
+                       1128             4 5 6
+                       1129             4 5 6
+                       1130             4 5 6
+                       1197             4 5 6
+                       1198             4 5 6
+                       1199             4 5 6
+                       1200             4 5 6
+                       1215             4 5 6
+                       1216             4 5 6
+                       1217             4 5 6
+                       1218             4 5 6
+                       1220             4 5 6
+                       1221             4 5 6
+                       1222             4 5 6
+                       1223             4 5 6
+                       1224             4 5 6
+                       1225             4 5 6
+                       1227             4 5 6
+                       1228             4 5 6
+                       1229             4 5 6
+                       1230             4 5 6
+ 		------------------------------
+  
+	Because of PARAM, PRGPST, 100, Auto-SPC printing is limited to 100 dofs.
+  
+  
+ (Scratch disk space usage for starting iteration = 58 MB)
+(Running in-core solution)
+
+Volume                              =  2.73056E-04   Mass     =  3.03092E-13
+-----------------------------------
+Subcase    Compliance       Epsilon
+-----------------------------------
+      1  1.231013E-01  3.692512E-12
+      2  1.226879E-01  8.093119E-12
+-----------------------------------
+ 
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      1254 MB
+   INCLUDING MEMORY FOR MUMPS                              454 MB
+   IN ADDITION     99 MB MEMORY WAS ALLOCATED FOR TEMPORARY USE
+ MAXIMUM DISK SPACE USED                                   142 MB
+   INCLUDING DISK SPACE FOR MUMPS                            0 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Thu May 23 15:21:57 2024    
+ EXECUTION COMPLETED                       Thu May 23 15:22:28 2024    
+ ELAPSED TIME                                         00:00:31
+ CPU TIME                                             00:00:09
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For OptiStruct Community Forum, go to the URL:
+ http://www.altair.com/optistruct-community
+ For Altair Community Knowledge Base, go to the URL:
+ http://www.altair.com/knowledge
