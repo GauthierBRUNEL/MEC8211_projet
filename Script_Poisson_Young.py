@@ -3,6 +3,11 @@ import numpy as np
 import pandas as pd
 import re
 from scipy.stats import linregress
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy.stats import qmc
+
+HISTO = False
 
 # Chemin du dossier contenant les fichiers de données
 directory = r'C:\Users\fgley\OneDrive\Bureau\SCOLAIRE\PREPA\A- GMC04\TX\3_Experimentation\0_Traction Nous\EXP 2'
@@ -10,6 +15,7 @@ directory = r'C:\Users\fgley\OneDrive\Bureau\SCOLAIRE\PREPA\A- GMC04\TX\3_Experi
 # Liste pour stocker tous les DataFrames
 dfs = []
 
+#%% Lire et assigner toutes les données 
 # Parcours des fichiers du dossier et sous-dossiers
 for root, dirs, files in os.walk(directory):
     for filename in files:
@@ -38,7 +44,7 @@ for root, dirs, files in os.walk(directory):
 # Concaténer tous les DataFrames en un seul
 df_final = pd.concat(dfs, ignore_index=True)
 
-# **Calcul du module de Young et du coefficient de Poisson**
+#%% **Calcul du module de Young et du coefficient de Poisson**
 results = {}
 
 # Boucle sur chaque éprouvette unique
@@ -78,8 +84,7 @@ poisson_data = {
     'LG': [0.557932735, 0.249314372, 0.418024998, 0.265210751, 0.536334161, 0.260806492]
 }
 
-import matplotlib.pyplot as plt
-import seaborn as sns
+#%% Plot Figure 1 à 3 
 
 # Convertir les résultats E en DataFrame et ajouter une colonne 'Direction'
 df_results = pd.DataFrame.from_dict(results, orient='index').reset_index()
@@ -111,55 +116,168 @@ plt.ylabel("ν (Poisson)")
 plt.grid(True)
 plt.show()
 
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy.stats import shapiro
+for eprouvette in df_final['Nom Eprouvette []'].unique():
+    df_subset = df_final[df_final['Nom Eprouvette []'] == eprouvette]
+    mask = df_subset['Strain [%]'] <= 3.0
+    strain_limited = df_subset['Strain [%]'][mask] / 100
+    stress_limited = df_subset['Constraint [MPa]'][mask]
 
-# Création des histogrammes pour E (Module de Young)
-plt.figure(figsize=(12, 6))
-colors = sns.color_palette("Set1", n_colors=len(df_results['Direction'].unique()))
-for idx, direction in enumerate(df_results['Direction'].unique()):
-    subset = df_results[df_results['Direction'] == direction]['E (MPa)']
-    sns.histplot(subset, kde=True, bins=10, label=direction, alpha=0.6, color=colors[idx])
+    if len(strain_limited) < 2:
+        print(f"⚠️ {eprouvette} : Pas assez de points pour le calcul de E.")
+        continue
 
-plt.title("Histogramme du Module de Young par direction")
-plt.xlabel("E (MPa)")
-plt.ylabel("Fréquence")
-plt.legend(title="Direction")
+    slope, _, _, _, _ = linregress(strain_limited, stress_limited)
+    E = slope  # Module de Young (MPa)
+    nu = -0.3  # Coefficient de Poisson approximé
+
+    # Calcul du coefficient de cisaillement
+    G = E / (2 * (1 + nu))
+
+    results[eprouvette] = {"E (MPa)": E, "ν (Poisson)": nu, "G (MPa)": G}
+
+    print(f"📊 {eprouvette} → E = {E:.2f} MPa, ν = {nu:.3f}, G = {G:.2f} MPa")
+
+# Résultats finaux
+df_results = pd.DataFrame.from_dict(results, orient='index').reset_index()
+df_results.columns = ['Nom Eprouvette', 'E (MPa)', 'ν (Poisson)', 'G (MPa)']
+df_results['Direction'] = df_results['Nom Eprouvette'].str.extract(r'(LA|LG|NO)')
+
+# Boxplot pour le coefficient de cisaillement G
+plt.figure(figsize=(10, 6))
+sns.boxplot(x='Direction', y='G (MPa)', data=df_results, palette='Set3')
+plt.title("Distribution du coefficient de cisaillement (G) par direction d'impression")
+plt.xlabel("Direction d'impression")
+plt.ylabel("G (MPa)")
 plt.grid(True)
 plt.show()
 
-# Test de normalité pour chaque direction (E)
-for direction in df_results['Direction'].unique():
-    subset = df_results[df_results['Direction'] == direction]['E (MPa)']
-    stat, p = shapiro(subset)
-    print(f"\n📊 Test de Shapiro-Wilk pour E ({direction}) : Stat={stat:.3f}, p={p:.5f}")
-    if p > 0.05:
-        print("✅ Données conformes à une distribution normale.")
-    else:
-        print("⚠️ Données potentiellement non normales.")
+#%% Test aléatoire ou epistémique
 
-# Création des histogrammes pour ν (Coefficient de Poisson)
-plt.figure(figsize=(12, 6))
-colors = sns.color_palette("Set2", n_colors=len(df_poisson['Direction'].unique()))
-for idx, direction in enumerate(df_poisson['Direction'].unique()):
-    subset = df_poisson[df_poisson['Direction'] == direction]['ν (Poisson)']
-    sns.histplot(subset, kde=True, bins=10, label=direction, alpha=0.6, color=colors[idx])
+from scipy.stats import shapiro, kstest, norm
 
-plt.title("Histogramme du Coefficient de Poisson par direction")
-plt.xlabel("ν (Poisson)")
-plt.ylabel("Fréquence")
-plt.legend(title="Direction")
-plt.grid(True)
-plt.show()
+# Test de normalité et visualisation par direction
+for variable in ['E (MPa)', 'ν (Poisson)', 'G (MPa)']:
+    for direction in df_results['Direction'].unique():
+        data = df_results[(df_results['Direction'] == direction)][variable].dropna()
 
-# Test de normalité pour chaque direction (ν)
+        if len(data) < 2 or data.nunique() == 1:
+            print(f"⚠️ {variable} en direction {direction} : Données insuffisantes ou trop uniformes pour une analyse correcte.")
+            continue
+
+        plt.figure(figsize=(10, 6))
+        
+        # Histogramme et courbe KDE avec ajustement si nécessaire
+        sns.histplot(data, kde=True, bins=15, color='skyblue', kde_kws={'bw_adjust': 0.5})
+        plt.title(f'Distribution de {variable} - Direction {direction}')
+        plt.xlabel(variable)
+        plt.grid(True)
+        plt.show()
+
+        # Test de Shapiro-Wilk
+        stat, p_value = shapiro(data)
+        if p_value > 0.05:
+            print(f"✅ {variable} en direction {direction} suit potentiellement une loi normale (p = {p_value:.3f})")
+        else:
+            print(f"❌ {variable} en direction {direction} ne suit PAS une loi normale (p = {p_value:.3f})")
+
+        # Test de Kolmogorov-Smirnov
+        stat, p_value = kstest(data, 'norm', args=(data.mean(), data.std()))
+        if p_value > 0.05:
+            print(f"✅ {variable} en direction {direction} est conforme à une loi normale d'après KS (p = {p_value:.3f})")
+        else:
+            print(f"❌ {variable} en direction {direction} n'est PAS conforme à une loi normale d'après KS (p = {p_value:.3f})")
+
+
+# PDF et CDF pour les variables suivant une loi normale
+for variable in ['E (MPa)', 'ν (Poisson)', 'G (MPa)']:
+    for direction in df_results['Direction'].unique():
+        data = df_results[(df_results['Direction'] == direction)][variable].dropna()
+
+        if len(data) < 2 or data.nunique() == 1:
+            print(f"⚠️ {variable} en direction {direction} : Données insuffisantes ou trop uniformes pour une analyse correcte.")
+            continue
+
+        # Estimation des paramètres de la loi normale
+        mu, sigma = data.mean(), data.std()
+
+        # Affichage des paramètres
+        print(f"📈 {variable} - Direction {direction} : μ = {mu:.2f}, σ = {sigma:.2f}")
+
+        # Tracé de la PDF
+        x = np.linspace(min(data), max(data), 100)
+        pdf = norm.pdf(x, mu, sigma)
+
+        plt.figure(figsize=(10, 6))
+        sns.histplot(data, kde=False, bins=15, color='skyblue', stat='density')
+        plt.plot(x, pdf, label='PDF - Loi Normale', color='red')
+        plt.title(f'Distribution de {variable} - Direction {direction}')
+        plt.xlabel(variable)
+        plt.legend()
+        plt.grid(True)
+        plt.show()
+
+        # Tracé de la CDF
+        cdf = norm.cdf(x, mu, sigma)
+
+        plt.figure(figsize=(10, 6))
+        plt.plot(x, cdf, label='CDF - Loi Normale', color='green')
+        plt.title(f'Fonction de répartition cumulative de {variable} - Direction {direction}')
+        plt.xlabel(variable)
+        plt.ylabel('Probabilité cumulative')
+        plt.legend()
+        plt.grid(True)
+        plt.show()
+
+#%% Plot des variables epistémique 
+
+# Tracé des CDF en escalier avec légende et couleurs
+colors = {'LA': 'blue', 'NO': 'green', 'LG': 'orange'}  # Couleurs par direction
+
 for direction in df_poisson['Direction'].unique():
-    subset = df_poisson[df_poisson['Direction'] == direction]['ν (Poisson)']
-    stat, p = shapiro(subset)
-    print(f"\n📊 Test de Shapiro-Wilk pour ν ({direction}) : Stat={stat:.3f}, p={p:.5f}")
-    if p > 0.05:
-        print("✅ Données conformes à une distribution normale.")
-    else:
-        print("⚠️ Données potentiellement non normales.")
+    plt.figure(figsize=(8, 6))
 
+    data = df_poisson[df_poisson['Direction'] == direction]['ν (Poisson)']
+
+    # Bornes min et max
+    lower_bound = np.min(data)
+    upper_bound = np.max(data)
+
+    # Tracé de la fonction escalier pour la borne inférieure (palier à 1 ajouté)
+    plt.step([0, lower_bound, lower_bound, upper_bound], [0, 0, 1, 1], 
+             color=colors[direction], linestyle='--', label='Minimum value of interval')
+
+    # Tracé de la fonction escalier pour la borne supérieure
+    plt.step([0, upper_bound, upper_bound, max(data) + 0.1], [0, 0, 1, 1], 
+             color=colors[direction], linestyle='-', label='Maximum value of interval')
+
+    plt.title(f"Fonction de répartition cumulative (CDF) - Direction {direction}")
+    plt.xlabel('ν (Poisson)')
+    plt.ylabel('Probabilité cumulative')
+    plt.legend()
+    plt.grid(True)
+
+    plt.show()
+
+#%% Formation de couple 
+
+# Nombre de couples à générer
+n_samples = 50
+
+# Génération des échantillons LHS
+lhs_samples = qmc.LatinHypercube(d=6).random(n=n_samples)
+
+# Paramètres et intervalles
+E_params = {k: (df_results[df_results['Direction'] == k]['E (MPa)'].mean(),
+                 df_results[df_results['Direction'] == k]['E (MPa)'].std())
+            for k in ['LA', 'LG', 'NO']}
+
+nu_intervals = {k: (min(poisson_data[k]), max(poisson_data[k])) for k in ['LA', 'LG', 'NO']}
+
+# Transformation LHS et calculs
+E = {k: norm.ppf(lhs_samples[:, i], loc=E_params[k][0], scale=E_params[k][1]) for i, k in enumerate(['LA', 'LG', 'NO'])}
+nu = {k: nu_intervals[k][0] + (nu_intervals[k][1] - nu_intervals[k][0]) * lhs_samples[:, i + 3] for i, k in enumerate(['LA', 'LG', 'NO'])}
+G = {k: E[k] / (2 * (1 + nu[k])) for k in ['LA', 'LG', 'NO']}
+
+df_couples = pd.DataFrame({**E, **nu, **G})
+df_couples.to_csv('Couples_LHS_Complets.csv', index=False)
+print(f"✅ {len(df_couples)} couples générés avec succès et sauvegardés dans 'Couples_LHS_Complets.csv'")
