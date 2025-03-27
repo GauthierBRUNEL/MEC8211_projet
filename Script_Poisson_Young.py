@@ -263,21 +263,44 @@ for direction in df_poisson['Direction'].unique():
 # Nombre de couples à générer
 n_samples = 50
 
-# Génération des échantillons LHS
-lhs_samples = qmc.LatinHypercube(d=6).random(n=n_samples)
+ORTOTROP = False
 
-# Paramètres et intervalles
-E_params = {k: (df_results[df_results['Direction'] == k]['E (MPa)'].mean(),
-                 df_results[df_results['Direction'] == k]['E (MPa)'].std())
-            for k in ['LA', 'LG', 'NO']}
+if ORTOTROP == True : 
+    # Génération des échantillons LHS
+    lhs_samples = qmc.LatinHypercube(d=6).random(n=n_samples)
 
-nu_intervals = {k: (min(poisson_data[k]), max(poisson_data[k])) for k in ['LA', 'LG', 'NO']}
+    # Paramètres et intervalles
+    E_params = {k: (df_results[df_results['Direction'] == k]['E (MPa)'].mean(),
+                     df_results[df_results['Direction'] == k]['E (MPa)'].std())
+                for k in ['LA', 'LG', 'NO']}
 
-# Transformation LHS et calculs
-E = {k: norm.ppf(lhs_samples[:, i], loc=E_params[k][0], scale=E_params[k][1]) for i, k in enumerate(['LA', 'LG', 'NO'])}
-nu = {k: nu_intervals[k][0] + (nu_intervals[k][1] - nu_intervals[k][0]) * lhs_samples[:, i + 3] for i, k in enumerate(['LA', 'LG', 'NO'])}
-G = {k: E[k] / (2 * (1 + nu[k])) for k in ['LA', 'LG', 'NO']}
+    nu_intervals = {k: (min(poisson_data[k]), max(poisson_data[k])) for k in ['LA', 'LG', 'NO']}
 
-df_couples = pd.DataFrame({**E, **nu, **G})
-df_couples.to_csv('Couples_LHS_Complets.csv', index=False)
-print(f"✅ {len(df_couples)} couples générés avec succès et sauvegardés dans 'Couples_LHS_Complets.csv'")
+    # Transformation LHS et calculs
+    E = {k: norm.ppf(lhs_samples[:, i], loc=E_params[k][0], scale=E_params[k][1]) for i, k in enumerate(['LA', 'LG', 'NO'])}
+    nu = {k: nu_intervals[k][0] + (nu_intervals[k][1] - nu_intervals[k][0]) * lhs_samples[:, i + 3] for i, k in enumerate(['LA', 'LG', 'NO'])}
+    G = {k: E[k] / (2 * (1 + nu[k])) for k in ['LA', 'LG', 'NO']}
+    
+    df_couples = pd.DataFrame({**E, **nu, **G})
+    df_couples.to_csv('Couples_LHS_Complets.csv', index=False)
+    print(f"✅ {len(df_couples)} couples générés avec succès et sauvegardés dans 'Couples_LHS_Complets.csv'")
+    
+else : 
+    # Génération des échantillons LHS
+    lhs_samples = qmc.LatinHypercube(d=2).random(n=n_samples)  # d=2 car on ne garde que LA
+    
+    # Paramètres et intervalles pour LA uniquement
+    E_mean_LA, E_std_LA = df_results[df_results['Direction'] == 'LA']['E (MPa)'].mean(), df_results[df_results['Direction'] == 'LA']['E (MPa)'].std()
+    nu_min_LA, nu_max_LA = min(poisson_data['LA']), max(poisson_data['LA'])
+    
+    # Transformation LHS et calculs pour LA uniquement
+    E_LA = norm.ppf(lhs_samples[:, 0], loc=E_mean_LA, scale=E_std_LA)
+    nu_LA = nu_min_LA + (nu_max_LA - nu_min_LA) * lhs_samples[:, 1]
+    
+    # Création du DataFrame et export CSV
+    df_LA = pd.DataFrame({'E_LA': E_LA, 'nu_LA': nu_LA})
+    df_LA.to_csv('Couples_LHS_LA.csv', index=False)
+    
+    print(f"✅ {len(df_LA)} couples générés avec succès et sauvegardés dans 'Couples_LHS_LA.csv'")
+
+
