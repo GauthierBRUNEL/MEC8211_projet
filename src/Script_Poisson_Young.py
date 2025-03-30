@@ -261,7 +261,7 @@ for direction in df_poisson['Direction'].unique():
 #%% Formation de couple 
 
 # Nombre de couples à générer
-n_samples = 50
+n_samples = 10
 
 ORTOTROP = False
 
@@ -274,11 +274,13 @@ if ORTOTROP == True :
                      df_results[df_results['Direction'] == k]['E (MPa)'].std())
                 for k in ['LA', 'LG', 'NO']}
 
-    nu_intervals = {k: (min(poisson_data[k]), max(poisson_data[k])) for k in ['LA', 'LG', 'NO']}
+    # Supposer que le max de nu est 0.48
+    nu_intervals = {k: (min(poisson_data[k]), min(max(poisson_data[k]), 0.48)) for k in ['LA', 'LG', 'NO']}
 
     # Transformation LHS et calculs
     E = {k: norm.ppf(lhs_samples[:, i], loc=E_params[k][0], scale=E_params[k][1]) for i, k in enumerate(['LA', 'LG', 'NO'])}
-    nu = {k: nu_intervals[k][0] + (nu_intervals[k][1] - nu_intervals[k][0]) * lhs_samples[:, i + 3] for i, k in enumerate(['LA', 'LG', 'NO'])}
+    nu = {k: nu_intervals[k][0] + (nu_intervals[k][1] - nu_intervals[k][0]) * lhs_samples[:, i + 3] for i, k in ['LA', 'LG', 'NO']}
+    
     G = {k: E[k] / (2 * (1 + nu[k])) for k in ['LA', 'LG', 'NO']}
     
     df_couples = pd.DataFrame({**E, **nu, **G})
@@ -291,7 +293,9 @@ else :
     
     # Paramètres et intervalles pour LA uniquement
     E_mean_LA, E_std_LA = df_results[df_results['Direction'] == 'LA']['E (MPa)'].mean(), df_results[df_results['Direction'] == 'LA']['E (MPa)'].std()
-    nu_min_LA, nu_max_LA = min(poisson_data['LA']), max(poisson_data['LA'])
+    
+    # Supposer que le max de nu_LA est 0.48
+    nu_min_LA, nu_max_LA = min(poisson_data['LA']), min(max(poisson_data['LA']), 0.48)
     
     # Transformation LHS et calculs pour LA uniquement
     E_LA = norm.ppf(lhs_samples[:, 0], loc=E_mean_LA, scale=E_std_LA)
@@ -302,5 +306,6 @@ else :
     df_LA.to_csv('Couples_LHS_LA.csv', index=False)
     
     print(f"✅ {len(df_LA)} couples générés avec succès et sauvegardés dans 'Couples_LHS_LA.csv'")
+    print(E_LA)
 
 
