@@ -332,7 +332,7 @@
               <Qualifier name="Cached">True</Qualifier>
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa9" format="float">
+            <ParameterValue parameter="pa29" format="float">
               <Data>200000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
@@ -377,7 +377,7 @@
           <PropertyData property="pr14">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
-            <ParameterValue parameter="pa29" format="float">
+            <ParameterValue parameter="pa30" format="float">
               <Data>10000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
@@ -395,11 +395,11 @@
       </Material>
       <Material>
         <BulkDetails>
-          <Name>resine</Name>
+          <Name>résine</Name>
           <PropertyData property="pr0">
             <Data format="string">-</Data>
             <ParameterValue parameter="pa0" format="float">
-              <Data>182</Data>
+              <Data>161</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -407,7 +407,7 @@
               </Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa1" format="float">
-              <Data>229</Data>
+              <Data>209</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -415,7 +415,7 @@
               </Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa2" format="float">
-              <Data>228</Data>
+              <Data>255</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -439,14 +439,14 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa9" format="float">
-              <Data>12707143910</Data>
+              <Data>19.4606</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
-              <Qualifier name="Offset">0 [Pa]</Qualifier>
+              <Qualifier name="Offset">0 [MPa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
-              <Qualifier name="Units">Pa</Qualifier>
+              <Qualifier name="Units">MPa</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa10" format="float">
-              <Data>0.34591471</Data>
+              <Data>0.4512</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -454,21 +454,21 @@
               </Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa11" format="float">
-              <Data>13744708001.2202</Data>
+              <Data>66463797.8142076</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa12" format="float">
-              <Data>4720634901.89508</Data>
+              <Data>6705002.75633958</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Offset">0 [Pa]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
               <Qualifier name="Units">Pa</Qualifier>
             </ParameterValue>
             <ParameterValue parameter="pa8" format="float">
-              <Data>30</Data>
+              <Data>7.88860905221012e-31</Data>
               <Qualifier name="Variable Type">Independent</Qualifier>
               <Qualifier name="Offset">0 [C]</Qualifier>
               <Qualifier name="Scale">1</Qualifier>
@@ -574,6 +574,10 @@
           <Units name="Electrical Resistivity" />
         </ParameterDetails>
         <ParameterDetails id="pa29">
+          <Name>Young's Modulus</Name>
+          <Units name="Stress" />
+        </ParameterDetails>
+        <ParameterDetails id="pa30">
           <Name>Relative Permeability</Name>
         </ParameterDetails>
         <ParameterDetails id="pa9">
@@ -651,8 +655,8 @@
         </PreviousTransferIDs>
       </Material>
       <Material>
-        <Name>resine</Name>
-        <DataTransferID>08aef98b-eeaa-47dc-9137-e971602c86c3</DataTransferID>
+        <Name>résine</Name>
+        <DataTransferID>b3b510dc-9c29-41c1-ac78-a30aa65fa931</DataTransferID>
         <PreviousTransferIDs>
         </PreviousTransferIDs>
       </Material>

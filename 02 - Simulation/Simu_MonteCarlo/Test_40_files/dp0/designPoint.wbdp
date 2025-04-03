@@ -34,7 +34,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">1934</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 7381, "Input": 1931, "Output": 1931}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8777, "Input": 1931, "Output": 1931}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -46,12 +46,17 @@
       <Object Name="/Geometry/Geometry:GeometryDataObject" Version="1.0">
         <class-type valType="String">Geometry</class-type>
         <object-name valType="String">GeometryDataObject</object-name>
-        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\Geom\DM\Geom.scdocx", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "SpaceClaim[26740]", "GeomFileReference": $$09796578-642c-4a30-85ec-844fb6b7cd75, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "99de04ff-01df-4b22-89ff-5b4d62390f7f", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$09796578-642c-4a30-85ec-844fb6b7cd75": {"FilePathInDM": r"C:\Users\fgley\AppData\Local\Temp\WB_fgley_15016_2\wbnew_files\dp0\Geom\DM\Geom.scdocx", "FilePathAfterRepair": r"C:\Users\fgley\AppData\Local\Temp\WB_fgley_15016_2\wbnew_files\dp0\Geom\DM\Geom.scdocx", "IsFileRepaired": False, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
+        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\Geom\DM\Geom.scdocx", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "SpaceClaim[26740]", "GeomFileReference": $$09796578-642c-4a30-85ec-844fb6b7cd75, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportPhysicsDefinition": False, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFacetQuality": "PlugInFacetQuality_Source", "GeometryImportFlattenAssembly": True, "GeometryImportCleanGeometryOnImport": False, "GeometryImportStitchSurfacesOnImport": "StitchPreference_None", "GeometryImportStitchTolerance": 1E-07, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "99de04ff-01df-4b22-89ff-5b4d62390f7f", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsDiscoveryGeometry": False, "IsDiscoveryModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$09796578-642c-4a30-85ec-844fb6b7cd75": {"FilePathInDM": r"C:\Users\fgley\AppData\Local\Temp\WB_fgley_15016_2\wbnew_files\dp0\Geom\DM\Geom.scdocx", "FilePathAfterRepair": r"G:\My Drive\02 - Etudes\05 - ETS\02 - H25\01 - Cours\MEC8211\04 - Projet\MEC8211_projet\02 - Simulation\Simu_MonteCarlo\Test_40_files\dp0\Geom\DM\Geom.scdocx", "IsFileRepaired": True, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
         <properties-setByUserFlag-data valType="String">["ObjectState"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject" Version="1.0">
         <class-type valType="String">SpaceClaimCallBackData</class-type>
         <object-name valType="String">SCDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "99de04ff-01df-4b22-89ff-5b4d62390f7f"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 1" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 1</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "99de04ff-01df-4b22-89ff-5b4d62390f7f"}</member-data>
       </Object>
       <Object Name="/Geometry/TransferData:Geometry" Version="1.0">
@@ -69,15 +74,15 @@
       <DefaultFluidMaterial valType="String">EDA_UNINITIALIZED_EDA</DefaultFluidMaterial>
       <Source_DataObject valType="StringArray">
         <ArrayEntry Index="0">Structural Steel::ANSYS%:%:Disk%:%:General_Materials.xml::Structural Steel</ArrayEntry>
-        <ArrayEntry Index="1">resine::ANSYS%:%:Disk%:%:C%:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\03_Projet\0_TestMonteCarlo\Test_40_files\dp0\SYS\ENGD\EngineeringData.xml::resine</ArrayEntry>
+        <ArrayEntry Index="1">résine::ANSYS%:%:Disk%:%:G%:\My Drive\02 - Etudes\05 - ETS\02 - H25\01 - Cours\MEC8211\04 - Projet\MEC8211_projet\02 - Simulation\Simu_MonteCarlo\Test_40_files\dp0\SYS\ENGD\EngineeringData.xml::résine</ArrayEntry>
       </Source_DataObject>
-      <AdaptedEntityMap valType="String">[typ]Material[/typ][mat]Structural Steel[/mat]::e65fc72e-4eb6-4f5e-ae18-d2a77bbb2c97$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp]::bd3863fb-3c59-4810-924a-45bfa1544481$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::143279d0-dbf0-4014-8d65-3987727c6a2c$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Red[/var]::e47db102-dbb4-4c8f-b093-c62cf2016e84$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Green[/var]::6ffc79ef-bf1e-423c-9c8d-794ba682d4ad$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Blue[/var]::fc2fdc7a-994d-49fa-af8a-70818e44ce91$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Compressive Ultimate Strength[/prp]::1de887b1-9312-48e4-9812-5361662c4d73$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Compressive Ultimate Strength[/prp][tbl]Compressive Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::12a111fc-5ab6-420f-903e-3909b470196e$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Compressive Ultimate Strength[/prp][tbl]Compressive Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Compressive Ultimate Strength[/var]::1ace957e-f6a2-4421-a4a4-edc08a2b54ff$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Compressive Yield Strength[/prp]::a0371830-1f76-4426-b72e-487db5a5def1$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Compressive Yield Strength[/prp][tbl]Compressive Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::b8378f42-460e-460b-8694-6aca11bf389a$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Compressive Yield Strength[/prp][tbl]Compressive Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Compressive Yield Strength[/var]::eaafd2b9-7145-4fe2-a19e-18ed294a35ac$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Density[/prp]::b9907144-12b0-4366-93b3-33acf02fa903$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::3fd0f6fa-9f03-41e1-990c-a671c65395e7$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Density[/var]::f97a5492-b8e3-4c9a-a1c5-bcfdc24f5ec3$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::7f20cdb9-cc18-48fb-b15f-964bcce75f15$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::5ee7d022-879f-4768-a8dd-c4530d9786db$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Tensile Yield Strength[/prp]::a3b0d0bf-80a1-43be-9ca7-80bdb3d319fb$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Tensile Yield Strength[/prp][tbl]Tensile Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::1a4370b2-2009-446e-ad05-5e85979621ed$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Tensile Yield Strength[/prp][tbl]Tensile Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Tensile Yield Strength[/var]::5eca9a8e-07c8-4407-9e22-41fc22aec4f9$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Tensile Ultimate Strength[/prp]::ca61de47-0bbf-4282-95ae-f71027546a85$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Tensile Ultimate Strength[/prp][tbl]Tensile Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::1c23cbbe-6517-4739-802e-6e830880d430$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Tensile Ultimate Strength[/prp][tbl]Tensile Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Tensile Ultimate Strength[/var]::bc31b68d-173c-457c-b783-328803ada0ed$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp]::96c5f941-2f69-457a-a677-99ecbd05afa8$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl]::8e9c7338-d2aa-43a7-8464-2bfd0b89a336$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Coefficient of Thermal Expansion[/var]::51073400-52d0-45b2-91ee-b7e8fbaf9d04$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::a343584d-800b-4d74-8377-87899bb466d8$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::6dacfd38-7758-4102-9f80-39dacda6841d$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Zero-Thermal-Strain Reference Temperature[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl]::afa604bc-5e0e-4ce9-8d28-57a1260d63b9$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Zero-Thermal-Strain Reference Temperature[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Zero-Thermal-Strain Reference Temperature[/var]::472c552d-71b4-4c19-8ee1-887bf6b4296c$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp]::d6de5ea7-068e-47e6-9e3b-2a0ac65e2708$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl]::84c10156-6b36-4804-84a6-88e01945322f$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl][var]Specific Heat[/var]::02fc966f-2b51-492f-982c-66ece0cdf958$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::2fb719b6-3d62-4a48-9266-5e89f56b1782$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::2dcc955e-7308-43b9-ad9b-998eabe8364f$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp]::6afce6db-3269-4324-ac77-09ea6c703c0e$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl]::7ee2dcfc-1d38-4325-9c55-1d504b035647$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Thermal Conductivity[/var]::249354c2-d890-4943-9944-ecd648b77927$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::3468c73b-451a-40a9-b20a-492d8ab63f21$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::6157249d-8c05-4153-a3bd-6f5aab411868$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp]::2091cbca-2e5c-4b6d-b981-fe0c5559687e$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl]::9aa49e41-e5d7-41f6-9263-6dfb6b4a1b5e$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl][var]Alternating Stress[/var]::a0c6874b-46da-4ffe-97d9-dd8d00855a9e$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl][var]Cycles[/var]::a874a054-03d8-499b-91fb-5358499c22b6$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl][var]Mean Stress[qual]Field Variable%:%:Mean Stress%$%$Default Data%:%:0%$%$Field Units%:%:Pa%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::8e32030e-ecba-4e36-a9cd-f03717a9e01e$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp]::f7312c0c-6ce6-4bf8-a80b-3b5a78e11aa5$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl]::79de65e8-54c9-48bc-8623-aada25767f92$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Strength Coefficient[/var]::6645cba4-7363-462c-96ea-f5dcbfcd17b5$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Strength Exponent[/var]::2cabe7c3-f8ba-4a3d-93a4-bb35d7214290$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Ductility Coefficient[/var]::4cb38b2f-3a5d-435c-a2a4-c22ca82e5b91$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Ductility Exponent[/var]::9d368ceb-660d-41c5-b9d8-d7574d476d88$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Cyclic Strength Coefficient[/var]::34818642-1562-4536-9d5a-4453706e8812$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Cyclic Strain Hardening Exponent[/var]::61dfacd9-509c-4120-9bb0-9b6d8c5b7c4e$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp]::85005bbc-ee45-4639-94aa-fcaa279b16f3$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp][tbl]Resistivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl]::f49c2459-0d9a-43a9-9fd8-1bf8828c8d7d$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp][tbl]Resistivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Resistivity[/var]::3b520545-f1f8-4f98-a933-1992cfcb4890$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp][tbl]Resistivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Temperature[/var]::2817429f-5045-4661-ba65-0e3f166ae365$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp]::2e130f87-f859-4c3c-9a48-b9381a8a3999$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl]::70c0c6fb-555b-4376-980c-6e73080be189$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Young's Modulus[/var]::259eec9f-8c65-4e3f-aadc-545c0fd1fa24$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Poisson's Ratio[/var]::8dd7ab8a-0344-45db-86e8-b77ed4d30228$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Bulk Modulus[/var]::f51be8fb-d512-4787-a44c-3876f9b5453f$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Shear Modulus[/var]::39a97f57-cb06-482a-871e-14e4a8960fae$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::7b3e945f-fc48-45e6-9b21-08de402ebf2c$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::97e3a9cc-cc7b-49e2-bb2e-2ebc64890890$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Relative Permeability[/prp]::05b47485-e781-483b-b48a-17f0b3d91dbf$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Relative Permeability[/prp][tbl]Relative Permeability[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl]::ba3e9841-e7cb-450e-a6a2-8560f982a78a$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Relative Permeability[/prp][tbl]Relative Permeability[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Relative Permeability[/var]::f70c3446-ac8d-4d08-8a05-650340068810$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Material Unique Id[/prp]::c23551a7-ed74-4403-9b6b-93cec9529d25$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Material Unique Id[/prp][tbl]Material Unique Id[qual]Definition%:%:%$%$Behavior%:%:%$%$guid%:%:59002a79-71c2-428e-906b-55d7dbee100e%$%$Display%:%:False[/qual][/tbl]::8e3108fc-2223-4054-9f4b-ce1efd61aab0$$[typ]Material[/typ][mat]resine[/mat]::ce99bf3f-bc2a-428f-b48a-8bc35945de47$$[typ]MaterialProperty[/typ][mat]resine[/mat][prp]Appearance[/prp]::63751389-174e-41e2-b28f-dbeccf73edf0$$[typ]MaterialPropertyData[/typ][mat]resine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::ab3f51d5-603a-4c9d-81eb-1ea45fc7afb9$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Red[/var]::232e4539-ecb9-4940-8d27-d5d3c9714289$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Green[/var]::964d0d21-1216-43bf-b2c7-164c414dbd8d$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Blue[/var]::8a3d7fc3-a6b0-4813-8081-1f2c4f3c1804$$[typ]MaterialProperty[/typ][mat]resine[/mat][prp]Elasticity[/prp]::54879f72-3a6d-4763-b64f-3fb43e1a2a77$$[typ]MaterialPropertyData[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl]::5bff8d92-7e34-40fd-aa16-38d580f013c9$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::22753d02-2a76-4c9c-b69a-ef3323b221bd$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Young's Modulus[/var]::436b4988-9ff1-4cba-bb30-410fd37da6f4$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Poisson's Ratio[/var]::c6563d62-6ce9-44a5-ad3d-a5bb9d774436$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Bulk Modulus[/var]::dd833080-4abe-4eda-8160-2e0188af2132$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Shear Modulus[/var]::e236efc7-825f-4da8-b373-305e17047a3d$$[typ]MaterialVariable[/typ][mat]resine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate%:%:Linear Multivariate%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::871213a6-54d8-4ab1-85f4-68e35ef213df$$</AdaptedEntityMap>
+      <AdaptedEntityMap valType="String">[typ]Material[/typ][mat]Structural Steel[/mat]::e65fc72e-4eb6-4f5e-ae18-d2a77bbb2c97$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp]::adb3877a-5cf8-43fb-bab1-78ea8289253d$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::2066462e-89b9-4a3c-bf16-f252cb9d92e1$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Red[/var]::ab41ccc3-3816-4dcf-982a-14ba11d984bc$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Green[/var]::45ee4da6-966b-40b5-a239-0829486acf48$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Blue[/var]::eef3f0ab-fe0e-46ff-bcea-cc908e7d1a7a$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Compressive Ultimate Strength[/prp]::8ba03793-3392-4913-a356-ce8bd37ed3e0$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Compressive Ultimate Strength[/prp][tbl]Compressive Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::0b610810-7606-4447-99fa-1e83ecf3d7a2$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Compressive Ultimate Strength[/prp][tbl]Compressive Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Compressive Ultimate Strength[/var]::158e5b1b-4443-4882-b2a9-9f785eb41994$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Compressive Yield Strength[/prp]::41f01dbe-7b8f-466b-b28f-d6b6ab22032c$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Compressive Yield Strength[/prp][tbl]Compressive Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::c17bf4fa-be82-4565-8bdc-c182b288a828$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Compressive Yield Strength[/prp][tbl]Compressive Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Compressive Yield Strength[/var]::e061d927-bbb7-4470-ae4e-abfc479f7a3c$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Density[/prp]::7705220b-c60b-4990-9045-26ef7d08bc54$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::94c29151-f863-499b-ac1d-dc84c51cb283$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Density[/var]::ae955538-2c0c-4f7a-a0f1-c325fcfaad21$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::4eadf900-a03c-4fe3-a3f6-e2610f63e07c$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Density[/prp][tbl]Density[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::502b7440-bfa6-4df1-bdc3-949ef335481f$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Tensile Yield Strength[/prp]::0b20afc8-8565-4be5-b0a9-b43c11b4cb47$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Tensile Yield Strength[/prp][tbl]Tensile Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::b1cb87be-94c7-4ed4-b0c4-ce5017471e19$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Tensile Yield Strength[/prp][tbl]Tensile Yield Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Tensile Yield Strength[/var]::3f138a8b-b771-49e0-a425-2ff9e72a9844$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Tensile Ultimate Strength[/prp]::795c4000-f7b7-4937-83fe-91d0f17d6369$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Tensile Ultimate Strength[/prp][tbl]Tensile Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::8b516008-2290-446e-aeeb-b93ff4fbf8a3$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Tensile Ultimate Strength[/prp][tbl]Tensile Ultimate Strength[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Tensile Ultimate Strength[/var]::0a89c659-d0f8-4235-b152-fe9e192729be$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp]::4daccb4f-0e87-4fa0-8418-6e440d730040$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl]::86fdb550-924e-4dc1-90c3-37c53631d06c$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Coefficient of Thermal Expansion[/var]::1278ffb8-7523-4b89-b01e-c91f740e56e1$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::38f046a3-bff3-4915-8643-394ce8a7b7f3$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Coefficient of Thermal Expansion[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::b2a03f79-b9d9-448b-ae9b-025cf3c71201$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Zero-Thermal-Strain Reference Temperature[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl]::fb463513-c4f0-4a39-97c7-8d30f909c5da$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Coefficient of Thermal Expansion[/prp][tbl]Zero-Thermal-Strain Reference Temperature[qual]Definition%:%:Secant%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Zero-Thermal-Strain Reference Temperature[/var]::457e8cbf-6911-4514-a02b-f12702c0f217$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp]::8f0c8e80-32d9-4463-8030-8a3314dcc7f6$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl]::171c8e23-5702-4fcf-afef-8793e1461a39$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl][var]Specific Heat[/var]::8ccedb2a-0d7b-47f8-a7eb-58e778013037$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::ec07888d-c6b6-46bf-bd69-7fc8ce366a55$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Specific Heat[/prp][tbl]Specific Heat[qual]Definition%:%:Constant Pressure%$%$Behavior%:%:[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::71ee3f20-5fbe-4384-9a95-af2de8598cb0$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp]::21d5ea85-ac56-4fec-945e-bd1f947987e8$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl]::c3c31b7f-1728-491f-ab0d-216727117289$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Thermal Conductivity[/var]::831d2b6d-491f-4311-980e-a7ea32f5c790$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::5b4c85e5-8529-446d-9bcd-101aaffb9b07$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Thermal Conductivity[/prp][tbl]Thermal Conductivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::248af023-3018-4b9e-aad1-0f7b178e868f$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp]::fe2e3200-c737-4b4f-9c09-584ec8154c79$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl]::a97991e0-c11a-4243-98c3-7cbc9885c169$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl][var]Alternating Stress[/var]::907cd847-fd7f-4c0d-8a34-22f995ae0662$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl][var]Cycles[/var]::1245f195-ca00-4b8a-9f80-8a6f1229076f$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]S-N Curve[/prp][tbl]S-N Curve[qual]Definition%:%:%$%$Behavior%:%:%$%$Interpolation%:%:Log-Log%:%:Linear%,%,Log-Log%,%,Semi-Log[/qual][/tbl][var]Mean Stress[qual]Field Variable%:%:Mean Stress%$%$Default Data%:%:0%$%$Field Units%:%:Pa%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::9898834c-1a24-4dd8-a304-e87f2fc1e01b$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp]::573b4222-d299-4787-b6b4-c1779564ae6e$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl]::96c4f780-6377-4bc2-889f-7cd155e29e4d$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Strength Coefficient[/var]::71084f41-16be-410a-a852-e7e8645a3b52$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Strength Exponent[/var]::0a6f7383-95c8-447a-a797-37b490bbdb2f$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Ductility Coefficient[/var]::b9575bc5-e4bf-4037-abfb-66857eec5a10$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Ductility Exponent[/var]::15ed3893-3c7c-4703-a6b5-b6243424159c$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Cyclic Strength Coefficient[/var]::f16d8abb-ea06-4cf3-88b7-fad1a5634b6e$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Strain-Life Parameters[/prp][tbl]Strain-Life Parameters[qual]Definition%:%:%$%$Behavior%:%:%$%$Display Curve Type%:%:Strain-Life%:%:Cyclic Stress-Strain%,%,Strain-Life[/qual][/tbl][var]Cyclic Strain Hardening Exponent[/var]::4cc31f70-9ce4-4343-afe2-335571ef4582$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp]::9d2b3a0d-8b7b-4c61-92a9-02036ee73e05$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp][tbl]Resistivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl]::de1a6afd-99ba-48ec-afe4-c266b4612a19$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp][tbl]Resistivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Resistivity[/var]::bca43ed8-c836-4a23-8e52-3841c0281223$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Resistivity[/prp][tbl]Resistivity[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Temperature[/var]::eaec16dd-a4c0-4a9b-9b24-0ea2a1d18e05$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp]::e72c1dc3-5aa5-414e-8f56-00b007156488$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl]::6b447dd6-3a51-45c1-a8db-d7c00c3d670e$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Young's Modulus[/var]::80404b62-c949-4d0b-af16-18cfffafd418$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Poisson's Ratio[/var]::fefa5ffe-2b02-48dd-b2dc-b0efcf66ac2d$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Bulk Modulus[/var]::fc3eb7aa-4d57-4fd1-9f91-7e2430b88f36$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Shear Modulus[/var]::87bc2919-d460-4045-a506-a443401bd7f2$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::cfc0c00c-7931-4282-baf9-7a9eb1e47d28$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate (Qhull)%:%:Linear Multivariate%,%,Linear Multivariate (Qhull)%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::cb49fa94-8f41-4d18-a263-c15122f2e040$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Relative Permeability[/prp]::d086d174-2828-4733-b905-556251cb37e8$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Relative Permeability[/prp][tbl]Relative Permeability[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl]::67074dad-d184-4698-99fb-05a01f9fc64c$$[typ]MaterialVariable[/typ][mat]Structural Steel[/mat][prp]Relative Permeability[/prp][tbl]Relative Permeability[qual]Definition%:%:%$%$Behavior%:%:Isotropic[/qual][/tbl][var]Relative Permeability[/var]::c4e257b4-ecaf-4986-bb7f-472e1d689f75$$[typ]MaterialProperty[/typ][mat]Structural Steel[/mat][prp]Material Unique Id[/prp]::27223ab9-3a22-42c3-b5c5-32aa20e4d794$$[typ]MaterialPropertyData[/typ][mat]Structural Steel[/mat][prp]Material Unique Id[/prp][tbl]Material Unique Id[qual]Definition%:%:%$%$Behavior%:%:%$%$guid%:%:59002a79-71c2-428e-906b-55d7dbee100e%$%$Display%:%:False[/qual][/tbl]::063bd114-29df-46c2-9ea8-4d2d320a8637$$[typ]Material[/typ][mat]résine[/mat]::21d6f4ef-f4a1-456e-92f1-c27e2a695761$$[typ]MaterialProperty[/typ][mat]résine[/mat][prp]Appearance[/prp]::06f1a8b6-7532-4ec2-bb4e-f8ea9f4a9229$$[typ]MaterialPropertyData[/typ][mat]résine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl]::983276ec-c3b1-4648-ab15-6b8f4397c7be$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Red[/var]::9b7d80b5-690b-4f7f-a933-050b705d37f4$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Green[/var]::c8041ee4-9672-4760-9f06-3e24fa02fab8$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Appearance[/prp][tbl]Color[qual]Definition%:%:%$%$Behavior%:%:[/qual][/tbl][var]Blue[/var]::7f1ead57-457e-42d7-8f9c-6f81ef006bf7$$[typ]MaterialProperty[/typ][mat]résine[/mat][prp]Elasticity[/prp]::73364a32-677c-4233-9c3e-ac8c73795145$$[typ]MaterialPropertyData[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl]::891b1478-2cc6-4492-a3f4-eb6d8866afb7$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Young's Modulus[/var]::34ee12e4-80d8-49c3-a5a0-63fb9c5c625f$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Poisson's Ratio[/var]::d6bc8c52-a789-4fcd-b8d5-26556de187ad$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Bulk Modulus[/var]::4d5f6492-d27f-407d-8c9a-019b74b58a83$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Shear Modulus[/var]::51b1b959-5046-4021-8d7b-a0eb56f2e047$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Temperature[qual]Field Variable%:%:Temperature%$%$Default Data%:%:22%$%$Field Units%:%:C%$%$Upper Limit%:%:Program Controlled%$%$Lower Limit%:%:Program Controlled[/qual][/var]::eea4dc28-aeef-40c8-a375-2a8c25c59976$$[typ]MaterialVariable[/typ][mat]résine[/mat][prp]Elasticity[/prp][tbl]Elasticity[qual]Definition%:%:%$%$Behavior%:%:Isotropic%$%$Derive from%:%:Young's Modulus and Poisson's Ratio%:%:Bulk Modulus and Poisson's Ratio%,%,Bulk Modulus and Shear Modulus%,%,Bulk Modulus and Young's Modulus%,%,Shear Modulus and Poisson's Ratio%,%,Shear Modulus and Young's Modulus%,%,Young's Modulus and Poisson's Ratio[/qual][/tbl][var]Interpolation Options[qual]AlgorithmType%:%:Linear Multivariate%:%:Linear Multivariate%,%,Nearest Neighbor%,%,Radial Basis%$%$Normalized%:%:True%:%:False%,%,True%$%$Cached%:%:True%:%:False%,%,True%$%$ExtrapolationType%:%:Projection to the Bounding Box%:%:Projection to the Bounding Box%,%,Projection to the Convex Hull[/qual][/var]::8ad50227-7ffe-4754-8b07-a52404487b55$$</AdaptedEntityMap>
       <ModelContainerDependencyList valType="String">{"Ansys.Simulation.Core.Addin:SimulationModel":[Model]}</ModelContainerDependencyList>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">7347</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 7346, "Input": 7338, "Output": 1954}</last-modified-by-usage>
+      <last-updated valType="Int64">8665</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8663, "Input": 8663, "Output": 1954}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 7302, "Model": 7320, "Setup": 7329, "Solution": 7330, "Results": 7331, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 8664, "Model": 8105, "Setup": 8121, "Solution": 7703, "Results": 7376, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0, "EngineeringData": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Engineering Data/EngineeringData:Engineering Data" Version="1.0">
@@ -90,11 +95,10 @@
         <object-name valType="String">Structural Steel</object-name>
         <member-data valType="String">{"DisplayText": "Structural Steel", "SourceFileReference": None}</member-data>
       </Object>
-      <Object Name="/Engineering Data/Material:resine" Version="1.0">
+      <Object Name="/Engineering Data/Material:résine" Version="1.0">
         <class-type valType="String">Material</class-type>
-        <object-name valType="String">resine</object-name>
-        <member-data valType="String">{"DisplayText": "resine", "SourceFileReference": $$5162897a-828d-4ef4-bf15-c8b715fc2c3d}</member-data>
-        <properties-setByUserFlag-data valType="String">["DisplayName"]</properties-setByUserFlag-data>
+        <object-name valType="String">résine</object-name>
+        <member-data valType="String">{"DisplayText": "résine", "SourceFileReference": $$5162897a-828d-4ef4-bf15-c8b715fc2c3d}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialProperty:Appearance" Version="2.0">
         <class-type valType="String">MaterialProperty</class-type>
@@ -211,15 +215,15 @@
         <object-name valType="String">Tensile Ultimate Strength</object-name>
         <member-data valType="String">{"DisplayText": "Tensile Ultimate Strength"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialPropertyData:Coefficient of Thermal Expansion" Version="2.0">
-        <class-type valType="String">MaterialPropertyData</class-type>
-        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
-        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
-      </Object>
       <Object Name="/Engineering Data/MaterialPropertyData:Zero-Thermal-Strain Reference Temperature" Version="2.0">
         <class-type valType="String">MaterialPropertyData</class-type>
         <object-name valType="String">Zero-Thermal-Strain Reference Temperature</object-name>
         <member-data valType="String">{"DisplayText": "Zero-Thermal-Strain Reference Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Coefficient of Thermal Expansion" Version="2.0">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
+        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialPropertyData:Specific Heat" Version="2.0">
         <class-type valType="String">MaterialPropertyData</class-type>
@@ -266,25 +270,25 @@
         <object-name valType="String">Color 1</object-name>
         <member-data valType="String">{"DisplayText": "Color"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialPropertyData:Elasticity 2" Version="2.0">
+      <Object Name="/Engineering Data/MaterialPropertyData:Elasticity 1" Version="2.0">
         <class-type valType="String">MaterialPropertyData</class-type>
-        <object-name valType="String">Elasticity 2</object-name>
+        <object-name valType="String">Elasticity 1</object-name>
         <member-data valType="String">{"DisplayText": "Elasticity"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Red" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Blue" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Red</object-name>
-        <member-data valType="String">{"DisplayText": "Red"}</member-data>
+        <object-name valType="String">Blue</object-name>
+        <member-data valType="String">{"DisplayText": "Blue"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Green" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Green</object-name>
         <member-data valType="String">{"DisplayText": "Green"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Blue" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Red" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Blue</object-name>
-        <member-data valType="String">{"DisplayText": "Blue"}</member-data>
+        <object-name valType="String">Red</object-name>
+        <member-data valType="String">{"DisplayText": "Red"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Compressive Ultimate Strength" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
@@ -296,20 +300,20 @@
         <object-name valType="String">Compressive Yield Strength</object-name>
         <member-data valType="String">{"DisplayText": "Compressive Yield Strength"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Density" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Interpolation Options" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Density</object-name>
-        <member-data valType="String">{"DisplayText": "Density"}</member-data>
+        <object-name valType="String">Interpolation Options</object-name>
+        <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Temperature" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Temperature</object-name>
         <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Interpolation Options" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Density" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Interpolation Options</object-name>
-        <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
+        <object-name valType="String">Density</object-name>
+        <member-data valType="String">{"DisplayText": "Density"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Tensile Yield Strength" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
@@ -321,140 +325,140 @@
         <object-name valType="String">Tensile Ultimate Strength</object-name>
         <member-data valType="String">{"DisplayText": "Tensile Ultimate Strength"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Coefficient of Thermal Expansion" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Zero-Thermal-Strain Reference Temperature" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
-        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Temperature 1" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Temperature 1</object-name>
-        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+        <object-name valType="String">Zero-Thermal-Strain Reference Temperature</object-name>
+        <member-data valType="String">{"DisplayText": "Zero-Thermal-Strain Reference Temperature"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 1" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Interpolation Options 1</object-name>
         <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Zero-Thermal-Strain Reference Temperature" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 1" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Zero-Thermal-Strain Reference Temperature</object-name>
-        <member-data valType="String">{"DisplayText": "Zero-Thermal-Strain Reference Temperature"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Specific Heat" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Specific Heat</object-name>
-        <member-data valType="String">{"DisplayText": "Specific Heat"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Temperature 2" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Temperature 2</object-name>
+        <object-name valType="String">Temperature 1</object-name>
         <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Coefficient of Thermal Expansion" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
+        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 2" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Interpolation Options 2</object-name>
         <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Thermal Conductivity" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 2" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Thermal Conductivity</object-name>
-        <member-data valType="String">{"DisplayText": "Thermal Conductivity"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Temperature 3" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Temperature 3</object-name>
+        <object-name valType="String">Temperature 2</object-name>
         <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Specific Heat" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Specific Heat</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Heat"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 3" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Interpolation Options 3</object-name>
         <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Alternating Stress" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 3" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Alternating Stress</object-name>
-        <member-data valType="String">{"DisplayText": "Alternating Stress"}</member-data>
+        <object-name valType="String">Temperature 3</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Cycles" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Thermal Conductivity" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Cycles</object-name>
-        <member-data valType="String">{"DisplayText": "Cycles"}</member-data>
+        <object-name valType="String">Thermal Conductivity</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal Conductivity"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Mean Stress" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Mean Stress</object-name>
         <member-data valType="String">{"DisplayText": "Mean Stress"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Strength Coefficient" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Cycles" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Strength Coefficient</object-name>
-        <member-data valType="String">{"DisplayText": "Strength Coefficient"}</member-data>
+        <object-name valType="String">Cycles</object-name>
+        <member-data valType="String">{"DisplayText": "Cycles"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Strength Exponent" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Alternating Stress" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Strength Exponent</object-name>
-        <member-data valType="String">{"DisplayText": "Strength Exponent"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Ductility Coefficient" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Ductility Coefficient</object-name>
-        <member-data valType="String">{"DisplayText": "Ductility Coefficient"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Ductility Exponent" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Ductility Exponent</object-name>
-        <member-data valType="String">{"DisplayText": "Ductility Exponent"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Cyclic Strength Coefficient" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Cyclic Strength Coefficient</object-name>
-        <member-data valType="String">{"DisplayText": "Cyclic Strength Coefficient"}</member-data>
+        <object-name valType="String">Alternating Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Alternating Stress"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Cyclic Strain Hardening Exponent" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Cyclic Strain Hardening Exponent</object-name>
         <member-data valType="String">{"DisplayText": "Cyclic Strain Hardening Exponent"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Resistivity" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Cyclic Strength Coefficient" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Resistivity</object-name>
-        <member-data valType="String">{"DisplayText": "Resistivity"}</member-data>
+        <object-name valType="String">Cyclic Strength Coefficient</object-name>
+        <member-data valType="String">{"DisplayText": "Cyclic Strength Coefficient"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Ductility Exponent" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Ductility Exponent</object-name>
+        <member-data valType="String">{"DisplayText": "Ductility Exponent"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Ductility Coefficient" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Ductility Coefficient</object-name>
+        <member-data valType="String">{"DisplayText": "Ductility Coefficient"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Strength Exponent" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Strength Exponent</object-name>
+        <member-data valType="String">{"DisplayText": "Strength Exponent"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Strength Coefficient" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Strength Coefficient</object-name>
+        <member-data valType="String">{"DisplayText": "Strength Coefficient"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Temperature 4" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Temperature 4</object-name>
         <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Young's Modulus" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Resistivity" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Young's Modulus</object-name>
-        <member-data valType="String">{"DisplayText": "Young's Modulus"}</member-data>
+        <object-name valType="String">Resistivity</object-name>
+        <member-data valType="String">{"DisplayText": "Resistivity"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Poisson's Ratio" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 4" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Poisson's Ratio</object-name>
-        <member-data valType="String">{"DisplayText": "Poisson's Ratio"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Bulk Modulus" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Bulk Modulus</object-name>
-        <member-data valType="String">{"DisplayText": "Bulk Modulus"}</member-data>
-      </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Shear Modulus" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Shear Modulus</object-name>
-        <member-data valType="String">{"DisplayText": "Shear Modulus"}</member-data>
+        <object-name valType="String">Interpolation Options 4</object-name>
+        <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Temperature 5" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Temperature 5</object-name>
         <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 4" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Shear Modulus" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Interpolation Options 4</object-name>
-        <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
+        <object-name valType="String">Shear Modulus</object-name>
+        <member-data valType="String">{"DisplayText": "Shear Modulus"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Bulk Modulus" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Bulk Modulus</object-name>
+        <member-data valType="String">{"DisplayText": "Bulk Modulus"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Poisson's Ratio" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Poisson's Ratio</object-name>
+        <member-data valType="String">{"DisplayText": "Poisson's Ratio"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Young's Modulus" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Young's Modulus</object-name>
+        <member-data valType="String">{"DisplayText": "Young's Modulus"}</member-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Relative Permeability" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
@@ -476,22 +480,15 @@
         <object-name valType="String">Blue 1</object-name>
         <member-data valType="String">{"DisplayText": "Blue"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Temperature 7" Version="1.0">
-        <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Temperature 7</object-name>
-        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
-      </Object>
       <Object Name="/Engineering Data/MaterialVariable:Young's Modulus 1" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Young's Modulus 1</object-name>
         <member-data valType="String">{"DisplayText": "Young's Modulus"}</member-data>
-        <properties-setByUserFlag-data valType="String">["ParameterValue"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Poisson's Ratio 1" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
         <object-name valType="String">Poisson's Ratio 1</object-name>
         <member-data valType="String">{"DisplayText": "Poisson's Ratio"}</member-data>
-        <properties-setByUserFlag-data valType="String">["ParameterValue"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Engineering Data/MaterialVariable:Bulk Modulus 1" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
@@ -503,25 +500,30 @@
         <object-name valType="String">Shear Modulus 1</object-name>
         <member-data valType="String">{"DisplayText": "Shear Modulus"}</member-data>
       </Object>
-      <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 6" Version="1.0">
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 6" Version="1.0">
         <class-type valType="String">MaterialVariable</class-type>
-        <object-name valType="String">Interpolation Options 6</object-name>
+        <object-name valType="String">Temperature 6</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Interpolation Options 5" Version="1.0">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Interpolation Options 5</object-name>
         <member-data valType="String">{"DisplayText": "Interpolation Options"}</member-data>
       </Object>
       <Object Name="/Engineering Data/ResourceTransferData:TransferData_material" Version="1.0">
         <class-type valType="String">ResourceTransferData</class-type>
         <object-name valType="String">TransferData_material</object-name>
-        <member-data valType="String">{"DisplayText": "TransferData_material", "Guids": ["4a3300ea-5466-4a51-b5d6-9c096e083ead"], "Data": $$9086580d-1471-4a64-b9cb-9e6776313a44, "LastUpdate": 7347}</member-data>
+        <member-data valType="String">{"DisplayText": "TransferData_material", "Guids": ["4a3300ea-5466-4a51-b5d6-9c096e083ead"], "Data": $$9086580d-1471-4a64-b9cb-9e6776313a44, "LastUpdate": 8665}</member-data>
       </Object>
     </Container>
     <Container Name="Model" Version="1.0">
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationModel</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">7365</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 7364, "Input": 3315, "Output": 3315}</last-modified-by-usage>
+      <last-updated valType="Int64">8751</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8762, "Input": 8060, "Output": 8060}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 7347, "Model": 7320, "Setup": 7329, "Solution": 7330, "Results": 7331, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 8665, "Model": 8105, "Setup": 8121, "Solution": 7703, "Results": 7376, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0, "EngineeringData": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Model/SimulationConnection:SimulationConnection" Version="1.0">
@@ -603,7 +605,7 @@
       <Object Name="/Model/MechanicalModel:MechanicalModel" Version="1.0">
         <class-type valType="String">MechanicalModel</class-type>
         <object-name valType="String">MechanicalModel</object-name>
-        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$44f75cb3-2e37-4f9c-b58f-e076a0d5033e, "MeshFile": None, "EdaFile": None, "AcpRenumberingInformation": {}, "ModelConversionAssociativityMap": {}, "ModelId": 12, "PrototypeId": 15, "PrototypeUnitSystem": "WBUST_StandardMKS", "ModelHash": "3c1291dd-0687-460c-8827-b78a4ffb895e", "GeometryHash": "3c1291dd-0687-460c-8827-b78a4ffb895e", "IsResetNotRequired": False, "AllowMeshing": True, "TransferFiles": {"InputFile": {}, "ExternalModelOutputProvider": {}, "SimulationSolutionOutputProvider": {}, "SimulationModelGeneratedMesh": {}, "MeshingAssemblyTransferType": {}, "TopologyOptimizationResultsCDB": {}, "SpaceClaimModelerMode": {}, "MaterialDesignerLoadCase": {}, "Modeler": {}, "AIMGeometryMeshOutputProvider": {}, "AIMMechanicalPhysicsDefinitionOutputProvider": {}, "ExternalModelOutputProviderForAssembly": {}, "EngineeringData": {"Engineering Data": [$$170ae336-2176-45b1-89ed-9b31b2c0570e]}, "CompositeEngineeringData": {}, "SimulationEngineeringData": {}, "SolidSectionData": {}, "EnhancedModelData": {}}, "UnconsumedUpstreamDataForModelAssembly": {}, "ModelsWithConflictingModelHashes": [], "ApplicationRegisteredFiles": {}}</member-data>
+        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$44f75cb3-2e37-4f9c-b58f-e076a0d5033e, "MeshFile": None, "EdaFile": None, "AcpRenumberingInformation": {}, "ModelConversionAssociativityMap": {}, "ModelId": 12, "PrototypeId": 15, "PrototypeUnitSystem": "WBUST_StandardMKS", "ModelHash": "3c1291dd-0687-460c-8827-b78a4ffb895e", "GeometryHash": "3c1291dd-0687-460c-8827-b78a4ffb895e", "IsResetNotRequired": False, "AllowMeshing": True, "TransferFiles": {"InputFile": {}, "ExternalModelOutputProvider": {}, "SimulationSolutionOutputProvider": {}, "SimulationModelGeneratedMesh": {}, "MeshingAssemblyTransferType": {}, "TopologyOptimizationResultsCDB": {}, "SpaceClaimModelerMode": {}, "MaterialDesignerLoadCase": {}, "Modeler": {}, "AIMGeometryMeshOutputProvider": {}, "AIMMechanicalPhysicsDefinitionOutputProvider": {}, "ExternalModelOutputProviderForAssembly": {}, "EngineeringData": {"Engineering Data": [$$483033c5-d906-4b20-ad61-0d24ce929977]}, "CompositeEngineeringData": {}, "SimulationEngineeringData": {}, "SolidSectionData": {}, "EnhancedModelData": {}}, "UnconsumedUpstreamDataForModelAssembly": {}, "ModelsWithConflictingModelHashes": [], "ApplicationRegisteredFiles": {}}</member-data>
         <custom-data>
           <File valType="String">44f75cb3-2e37-4f9c-b58f-e076a0d5033e</File>
           <FilePath valType="String"></FilePath>
@@ -621,10 +623,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationSetup</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">7374</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 7369, "Input": 7369, "Output": 7369}</last-modified-by-usage>
+      <last-updated valType="Int64">8121</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8116, "Input": 8116, "Output": 8116}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 7347, "Model": 7365, "Setup": 7329, "Solution": 7330, "Results": 7331, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 8665, "Model": 8751, "Setup": 8121, "Solution": 7703, "Results": 7376, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0, "EngineeringData": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -680,10 +682,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationSolution</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">7375</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 7370, "Input": 7370, "Output": 7370}</last-modified-by-usage>
+      <last-updated valType="Int64">7703</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8771, "Input": 8771, "Output": 8771}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 7347, "Model": 7365, "Setup": 7374, "Solution": 7330, "Results": 7331, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 8665, "Model": 8751, "Setup": 8121, "Solution": 7703, "Results": 7376, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0, "EngineeringData": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">
@@ -769,9 +771,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">7376</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 7373, "Input": 7373, "Output": 7373}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 8770, "Input": 8770, "Output": 8770}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 7347, "Model": 7365, "Setup": 7374, "Solution": 7375, "Results": 7331, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 1934, "Engineering Data": 8665, "Model": 8751, "Setup": 8121, "Solution": 7703, "Results": 7376, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "SpaceClaimSessionContainer": 0, "EngineeringData": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results/MechanicalSystemType:SystemClass for Structural|Static|ANSYS" Version="1.0">

@@ -1,0 +1,117 @@
+# encoding: utf-8
+# 2025 R1
+SetScriptVersion(Version="25.1.122")
+system1 = GetSystem(Name="SYS")
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+material1 = engineeringData1.GetMaterial(Name="resine")
+matlProp1 = material1.GetProperty(Name="Elasticity")
+matlProp1.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="MPa")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["12707.143909999999 [MPa]"]])
+matlProp1.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="Pa")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["12707143909.999998 [Pa]"]])
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["19.07902 [Pa]"]])
+matlProp1.SetData(
+    Variables=["Poisson's Ratio"],
+    Values=[["0.4512"]])
+Save(Overwrite=True)
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["19.4606 [Pa]"]])
+Save(Overwrite=True)
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Update(AllDependencies=True)
+setupComponent1 = system1.GetComponent(Name="Setup")
+setupComponent1.Update(AllDependencies=True)
+solution1 = system1.GetContainer(ComponentName="Solution")
+solution1.Edit()
+solutionComponent1 = system1.GetComponent(Name="Solution")
+solutionComponent1.Update(AllDependencies=True)
+matlProp1.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="MPa")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["1.9460599999999998E-05 [MPa]"]])
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["1.94606 [MPa]"]])
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["19.4606 [MPa]"]])
+Save(Overwrite=True)
+modelComponent1.Update(AllDependencies=True)
+setupComponent1.Update(AllDependencies=True)
+Save(Overwrite=True)
+solution1.Edit()
+solutionComponent1.Update(AllDependencies=True)
+matl1 = engineeringData1.CreateMaterial(Name="resine")
+matl1 = engineeringData1.CreateMaterial(Name="résine")
+matlProp2 = matl1.CreateProperty(
+    Name="Elasticity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp2.SetData(
+    Index=-1,
+    Variables=["Young's Modulus"],
+    Values=[["19.09702 [Pa]"]])
+matlProp2.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["19.4606 [Pa]"]])
+matlProp2.SetData(
+    Variables=["Poisson's Ratio"],
+    Values=[["0.4512"]])
+material1.Delete()
+Save(Overwrite=True)
+Save(Overwrite=True)
+setupComponent1.Update(AllDependencies=True)
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+setup1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+matlProp2.SetVariableProperty(
+    VariableName="Young's Modulus",
+    Property="Unit",
+    Value="MPa")
+matlProp2.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["1.9460599999999998E-05 [MPa]"]])
+matlProp2.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["19.4606 [MPa]"]])
+Save(Overwrite=True)
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)
+matl1.Refresh(Source="G:/My Drive/02 - Etudes/05 - ETS/02 - H25/01 - Cours/MEC8211/04 - Projet/MEC8211_projet/02 - Simulation/Simu_MonteCarlo/Test_40_files/dp0/SYS/ENGD/EngineeringData.xml")
+library1 = EngData.OpenLibrary(
+    Name="EngineeringData",
+    Source=ANSYS::Disk::G:\My Drive\02 - Etudes\05 - ETS\02 - H25\01 - Cours\MEC8211\04 - Projet\MEC8211_projet\02 - Simulation\Simu_MonteCarlo\Test_40_files\dp0\SYS\ENGD\EngineeringData.xml)
+matl1.Refresh(Source="G:/My Drive/02 - Etudes/05 - ETS/02 - H25/01 - Cours/MEC8211/04 - Projet/MEC8211_projet/02 - Simulation/Simu_MonteCarlo/Test_40_files/dp0/SYS/ENGD/EngineeringData.xml")
+matl1.Unlink()
+material2 = engineeringData1.GetMaterial(Name="Structural Steel")
+material2.Refresh(Source="General_Materials.xml")
+Save(Overwrite=True)
+setupComponent1.Update(AllDependencies=True)
+solution1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)
+Save(Overwrite=True)
