@@ -1,10 +1,11 @@
-/COM,ANSYS RELEASE 2025 R1           BUILD 25.1      UP20241202       16:25:19
+/COM,ANSYS RELEASE 2025 R1           BUILD 25.1      UP20241202       15:14:20
 
- *** WARNING ***                         CP =       0.609   TIME= 16:25:21
- Element shape checking is currently inactive.  Issue SHPP,ON or         
- SHPP,WARN to reactivate, if desired.                                    
+ *** FATAL ***                           CP =       1.344   TIME= 15:14:23
+ The version size limits( NODES )have been exceeded.                     
+  Contact your Ansys support person for more information.                
 
- *** WARNING ***                         CP =       0.781   TIME= 16:25:21
- Material number 2 (used by element 13085) should normally have at least 
- one MP or one TB type command associated with it.  Output of energy by  
- material may not be available.                                          
+ ************************************************************************
+ The above error is non-recoverable by ANSYS                             
+  ANSYS run terminated by the indicated error                            
+  Current data base saved if possible.                                   
+ ************************************************************************
