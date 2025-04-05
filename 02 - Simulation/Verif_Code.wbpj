@@ -2,15 +2,16 @@
 <Storage>
   <Project Version="24.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">4521</timestamp-max>
+    <timestamp-max valType="Int64">4618</timestamp-max>
     <framework-build-version valType="String">25.1.122.0</framework-build-version>
     <external-version-string valType="String">2025 R1</external-version-string>
-    <last-saved-utc valType="String">04/04/2025 22:20:49</last-saved-utc>
+    <last-saved-utc valType="String">04/05/2025 19:51:01</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">fgley@DESKTOP-Q32N9SO:C:\Users\fgley\AppData\Local\Temp\WorkbenchLogs\CoreEvents18552.log</ArrayEntry>
       <ArrayEntry Index="1">fgley@DESKTOP-Q32N9SO:C:\Users\fgley\AppData\Local\Temp\WorkbenchLogs\CoreEvents7676.log</ArrayEntry>
       <ArrayEntry Index="2">fgley@DESKTOP-Q32N9SO:C:\Users\fgley\AppData\Local\Temp\WorkbenchLogs\CoreEvents8404.log</ArrayEntry>
+      <ArrayEntry Index="3">fgley@DESKTOP-Q32N9SO:C:\Users\fgley\AppData\Local\Temp\WorkbenchLogs\CoreEvents23388.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -265,9 +266,27 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1493, "Input": 1493, "Output": 1493}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4557, "Input": 1493, "Output": 1493}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Messages/StoredMessage:Message" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Warning", "MessageCategory": "None", "Summary": r"""The following project file may not have been backed up before it was modified:
+C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\Verif_Code_files\dp0\SYS-1\MECH\CAERepOutput.xml""", "Details": None, "Association": "", "DateTimeStamp": 04/05/2025 14:41:12, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 1" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 1</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Warning", "MessageCategory": "None", "Summary": r"""The following project file may not have been backed up before it was modified:
+C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\Verif_Code_files\dp0\SYS-1\MECH\file0.err""", "Details": None, "Association": "", "DateTimeStamp": 04/05/2025 14:41:12, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 2" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 2</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Warning", "MessageCategory": "None", "Summary": r"""The following project file may not have been backed up before it was modified:
+C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\Verif_Code_files\dp0\SYS-1\MECH\file.aapresults""", "Details": None, "Association": "", "DateTimeStamp": 04/05/2025 14:41:12, "Visibility": "Warning", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
     </Container>
     <Container Name="Parameters" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
