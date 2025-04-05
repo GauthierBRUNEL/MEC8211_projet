@@ -105,13 +105,13 @@
   DISTRIBUTED MEMORY PARALLEL REQUESTED
        4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
     TOTAL OF     4 CORES REQUESTED
-  INPUT FILE NAME              = C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0\dummy.dat
-  OUTPUT FILE NAME             = C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0\solve.out
+  INPUT FILE NAME              = C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= 2025 R1              BUILD= 25.1      UP20241202   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  16:26:40  APR 04, 2025 CP=      0.000
+ CURRENT JOBNAME=file0  14:45:51  APR 05, 2025 CP=      0.000
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -120,11 +120,11 @@
 
 
 
- *** NOTE ***                            CP =       0.047   TIME= 16:26:40
+ *** NOTE ***                            CP =       0.109   TIME= 14:45:52
  The /CONFIG,NOELDB command is not valid in a distributed memory         
  parallel solution.  Command is ignored.                                 
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.4444444    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.7644444    
 
  TITLE= 
  Verif_Code--Static Structural (B5)                                            
@@ -139,7 +139,7 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
@@ -176,7 +176,7 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R1          25.1     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   16:26:40  APR 04, 2025 CP=      0.047
+ 01055371  VERSION=WINDOWS x64   14:45:52  APR 05, 2025 CP=      0.109
 
  Verif_Code--Static Structural (B5)                                            
 
@@ -193,18 +193,18 @@
  *********** Define Vertex Force Using Follower Elements ***********
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.047
+ ***** ROUTINE COMPLETED *****  CP =         0.125
 
 
- --- Number of total nodes = 201
+ --- Number of total nodes = 11
  --- Number of contact elements = 0
  --- Number of spring elements = 0
  --- Number of bearing elements = 0
- --- Number of solid elements = 100
+ --- Number of solid elements = 5
  --- Number of condensed parts = 0
- --- Number of total elements = 103
+ --- Number of total elements = 8
 
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.4444444    
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.7644444    
  ****************************************************************************
  *************************    SOLUTION       ********************************
  ****************************************************************************
@@ -242,7 +242,7 @@
  SELECT       FOR ITEM=REAL COMPONENT=    
   IN RANGE         2 TO          2 STEP          1
 
-          1  ELEMENTS (OF        103  DEFINED) SELECTED BY  ESEL  COMMAND.
+          1  ELEMENTS (OF          8  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
      VALUES =    -30.000        -30.000        -30.000        -30.000    
@@ -250,7 +250,7 @@
  SELECT       FOR ITEM=REAL COMPONENT=    
   IN RANGE         3 TO          3 STEP          1
 
-          1  ELEMENTS (OF        103  DEFINED) SELECTED BY  ESEL  COMMAND.
+          1  ELEMENTS (OF          8  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
      VALUES =     0.0000         0.0000         0.0000         0.0000    
@@ -258,15 +258,15 @@
  SELECT       FOR ITEM=REAL COMPONENT=    
   IN RANGE         4 TO          4 STEP          1
 
-          1  ELEMENTS (OF        103  DEFINED) SELECTED BY  ESEL  COMMAND.
+          1  ELEMENTS (OF          8  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
      VALUES =     0.0000         0.0000         0.0000         0.0000    
 
  ALL SELECT   FOR ITEM=ELEM COMPONENT=    
-  IN RANGE         1 TO        103 STEP          1
+  IN RANGE         1 TO          8 STEP          1
 
-        103  ELEMENTS (OF        103  DEFINED) SELECTED BY  ESEL  COMMAND.
+          8  ELEMENTS (OF          8  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  PRINTOUT RESUMED BY /GOP
 
@@ -322,22 +322,22 @@
 
  *ENDIF
 
- *** NOTE ***                            CP =       0.062   TIME= 16:26:40
+ *** NOTE ***                            CP =       0.312   TIME= 14:45:52
  The automatic domain decomposition logic has selected the MESH domain   
  decomposition method with 4 processes per solution.                     
 
  *****  MAPDL SOLVE    COMMAND  *****
 
- *** WARNING ***                         CP =       0.062   TIME= 16:26:40
+ *** WARNING ***                         CP =       0.312   TIME= 14:45:52
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** NOTE ***                            CP =       0.062   TIME= 16:26:40
+ *** NOTE ***                            CP =       0.312   TIME= 14:45:52
  The model data was checked and warning messages were found.             
   Please review output or errors file (                                  
  C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\ 
  0_Devoir 1\MEC8211_projet\02 -                                          
- Simulation\_ProjectScratch\ScrDDF0\file0.err ) for these warning        
+ Simulation\_ProjectScratch\Scr1288\file0.err ) for these warning        
  messages.                                                               
 
  *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
@@ -354,7 +354,7 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R1          25.1     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   16:26:40  APR 04, 2025 CP=      0.062
+ 01055371  VERSION=WINDOWS x64   14:45:52  APR 05, 2025 CP=      0.312
 
  Verif_Code--Static Structural (B5)                                            
 
@@ -369,32 +369,32 @@
    EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
    GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
 
- *** WARNING ***                         CP =       0.062   TIME= 16:26:40
- Material number 2 (used by element 101) should normally have at least   
- one MP or one TB type command associated with it.  Output of energy by  
+ *** WARNING ***                         CP =       0.312   TIME= 14:45:52
+ Material number 2 (used by element 6) should normally have at least one 
+ MP or one TB type command associated with it.  Output of energy by      
  material may not be available.                                          
 
- *** NOTE ***                            CP =       0.062   TIME= 16:26:40
+ *** NOTE ***                            CP =       0.312   TIME= 14:45:52
  The step data was checked and warning messages were found.              
   Please review output or errors file (                                  
  C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\ 
  0_Devoir 1\MEC8211_projet\02 -                                          
- Simulation\_ProjectScratch\ScrDDF0\file0.err ) for these warning        
+ Simulation\_ProjectScratch\Scr1288\file0.err ) for these warning        
  messages.                                                               
 
- *** NOTE ***                            CP =       0.062   TIME= 16:26:40
- Internal nodes from 202 to 301 are created.                             
- 100 internal nodes are used for quadratic and/or cubic options of       
+ *** NOTE ***                            CP =       0.312   TIME= 14:45:52
+ Internal nodes from 12 to 16 are created.                               
+ 5 internal nodes are used for quadratic and/or cubic options of         
  BEAM188, PIPE288, and/or SHELL208.                                      
 
   
   
      D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
   
-  ...Number of elements: 103
-  ...Number of nodes:    301
+  ...Number of elements: 8
+  ...Number of nodes:    16
   ...Decompose to 4 CPU domains
-  ...Element load balance ratio =     1.040
+  ...Element load balance ratio =     1.000
 
 
                       L O A D   S T E P   O P T I O N S
@@ -421,64 +421,64 @@
 
  SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
 
- *** NOTE ***                            CP =       0.188   TIME= 16:26:41
+ *** NOTE ***                            CP =       0.453   TIME= 14:45:52
  Predictor is ON by default for structural elements with rotational      
  degrees of freedom.  Use the PRED,OFF command to turn the predictor     
  OFF if it adversely affects the convergence.                            
 
 
  Range of element maximum matrix coefficients in global coordinates
- Maximum = 21333333.3 at element 67.                                     
- Minimum = 21333333.3 at element 83.                                     
+ Maximum = 1066666.67 at element 5.                                      
+ Minimum = 1066666.67 at element 4.                                      
 
    *** ELEMENT MATRIX FORMULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1       100  BEAM188       0.016   0.000156
+        1         5  BEAM188       0.016   0.003125
         2         3  CLOAD201      0.000   0.000000
- Time at end of element matrix formulation CP = 0.203125.                
+ Time at end of element matrix formulation CP = 0.484375.                
 
  DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
-  Number of equations =        1200,    Maximum wavefront =     30
+  Number of equations =          60,    Maximum wavefront =     30
 
 
   Memory allocated on only this MPI rank (rank     0)
   -------------------------------------------------------------------
-  Equation solver memory allocated                     =     0.578 MB
-  Equation solver memory required for in-core mode     =     0.556 MB
-  Equation solver memory required for out-of-core mode =     0.556 MB
-  Total (solver and non-solver) memory allocated       =   364.844 MB
+  Equation solver memory allocated                     =     0.274 MB
+  Equation solver memory required for in-core mode     =     0.261 MB
+  Equation solver memory required for out-of-core mode =     0.261 MB
+  Total (solver and non-solver) memory allocated       =   364.579 MB
 
 
   Total memory summed across all MPI ranks on this machines
   -------------------------------------------------------------------
-  Equation solver memory allocated                     =     2.172 MB
-  Equation solver memory required for in-core mode     =     2.089 MB
-  Equation solver memory required for out-of-core mode =     2.089 MB
-  Total (solver and non-solver) memory allocated       =   650.633 MB
+  Equation solver memory allocated                     =     1.062 MB
+  Equation solver memory required for in-core mode     =     1.013 MB
+  Equation solver memory required for out-of-core mode =     1.013 MB
+  Total (solver and non-solver) memory allocated       =   648.144 MB
 
- *** NOTE ***                            CP =       0.234   TIME= 16:26:41
+ *** NOTE ***                            CP =       0.500   TIME= 14:45:52
  The Distributed Sparse Matrix Solver is currently running in the        
  in-core memory mode.  This memory mode uses the most amount of memory   
  in order to avoid using the hard drive as much as possible, which most  
  often results in the fastest solution time.  This mode is recommended   
  if enough physical memory is present to accommodate all of the solver   
  data.                                                                   
- Distributed sparse solver maximum pivot= 9333333.33 at node 2 UY.       
- Distributed sparse solver minimum pivot= 10.6612753 at node 52 ROTY.    
- Distributed sparse solver minimum pivot in absolute value= 10.6612753   
- at node 52 ROTY.                                                        
+ Distributed sparse solver maximum pivot= 466666.667 at node 2 UY.       
+ Distributed sparse solver minimum pivot= 8.88439604 at node 5 ROTY.     
+ Distributed sparse solver minimum pivot in absolute value= 8.88439604   
+ at node 5 ROTY.                                                         
 
    *** ELEMENT RESULT CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1       100  BEAM188       0.000   0.000000
+        1         5  BEAM188       0.000   0.000000
         2         3  CLOAD201      0.000   0.000000
 
    *** NODAL LOAD CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1       100  BEAM188       0.000   0.000000
+        1         5  BEAM188       0.000   0.000000
         2         3  CLOAD201      0.000   0.000000
  *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
  *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
@@ -489,27 +489,27 @@
         0.062 MB WRITTEN ON ELEMENT MATRIX FILE: file0.emat
         0.062 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
         0.062 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
-        0.375 MB WRITTEN ON RESULTS FILE: file0.rst
+        0.312 MB WRITTEN ON RESULTS FILE: file0.rst
  *************** Write FE CONNECTORS *********
 
  WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
  ****************************************************
  *************** FINISHED SOLVE FOR LS 1 *************
 
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.4447222    
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.7644444    
 
  PRINTOUT RESUMED BY /GOP
 
  FINISH SOLUTION PROCESSING
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.297
+ ***** ROUTINE COMPLETED *****  CP =         0.609
 
 
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2025 R1          25.1     ***
  Ansys Mechanical Enterprise Academic Student      
- 01055371  VERSION=WINDOWS x64   16:26:41  APR 04, 2025 CP=      0.297
+ 01055371  VERSION=WINDOWS x64   14:45:52  APR 05, 2025 CP=      0.641
 
  Verif_Code--Static Structural (B5)                                            
 
@@ -517,7 +517,7 @@
 
           ***** MAPDL RESULTS INTERPRETATION (POST1) *****
 
- *** NOTE ***                            CP =       0.297   TIME= 16:26:41
+ *** NOTE ***                            CP =       0.641   TIME= 14:45:52
  Reading results into the database (SET command) will update the current 
  displacement and force boundary conditions in the database with the     
  values from the results file for that load set.  Note that any          
@@ -535,29 +535,29 @@
  EXIT THE MAPDL POST1 DATABASE PROCESSOR
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.297
+ ***** ROUTINE COMPLETED *****  CP =         0.641
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.4447222    
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  14.7644444    
 
  PARAMETER _PREPTIME =     0.000000000    
 
- PARAMETER _SOLVTIME =     1.000000000    
+ PARAMETER _SOLVTIME =     0.000000000    
 
  PARAMETER _POSTTIME =     0.000000000    
 
- PARAMETER _TOTALTIM =     1.000000000    
+ PARAMETER _TOTALTIM =     0.000000000    
 
- *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.04000000    
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.00000000    
 
- *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.568720000E-01
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.754724000E-01
 
  *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
 
- *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  1200.00000    
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  60.0000000    
 
  *GET  _SOL_END_TIME  FROM  ACTI  ITEM=SET  TIME  VALUE=  1.00000000    
 
@@ -567,12 +567,12 @@
  /FCLEAN COMMAND REMOVING ALL LOCAL FILES
 
  *ENDIF
- --- Total number of nodes = 201
- --- Total number of elements = 103
- --- Element load balance ratio = 1.04
- --- Time to combine distributed files = 5.6872E-02
+ --- Total number of nodes = 11
+ --- Total number of elements = 8
+ --- Element load balance ratio = 1
+ --- Time to combine distributed files = 7.54724E-02
  --- Sparse memory mode = 2
- --- Number of DOF = 1200
+ --- Number of DOF = 60
 
  EXIT MAPDL WITHOUT SAVING DATABASE
 
@@ -583,7 +583,7 @@
 +--------------------- M A P D L   S T A T I S T I C S ------------------------+
 
 Release: 2025 R1            Build: 25.1       Update: UP20241202   Platform: WINDOWS x64 
-Date Run: 04/04/2025   Time: 16:26     Process ID: 28656
+Date Run: 04/05/2025   Time: 14:45     Process ID: 14768
 Operating System: Windows 11  (Build: 22631)
 
 Processor Model: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
@@ -609,25 +609,25 @@ Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0
-     1             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0
-     2             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0
-     3             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\ScrDDF0
+     0             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288
+     1             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288
+     2             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288
+     3             DESKTOP-Q32N9SO   C:\Users\fgley\OneDrive\Bureau\PROFESSIONAL\CANADA\5_Cours\H25_MEC8211\0_Devoir 1\MEC8211_projet\02 - Simulation\_ProjectScratch\Scr1288
  
-Latency time from master to core     1 =    5.410 microseconds
-Latency time from master to core     2 =    8.938 microseconds
-Latency time from master to core     3 =    4.554 microseconds
+Latency time from master to core     1 =    4.572 microseconds
+Latency time from master to core     2 =    3.210 microseconds
+Latency time from master to core     3 =    3.346 microseconds
  
-Communication speed from master to core     1 =  4262.12 MB/sec
-Communication speed from master to core     2 =  3283.65 MB/sec
-Communication speed from master to core     3 =  4750.42 MB/sec
+Communication speed from master to core     1 =  5626.51 MB/sec
+Communication speed from master to core     2 =  5420.13 MB/sec
+Communication speed from master to core     3 =  5243.56 MB/sec
 
-Total CPU time for main thread                    :        0.6 seconds
-Total CPU time summed for all threads             :        0.7 seconds
+Total CPU time for main thread                    :        1.1 seconds
+Total CPU time summed for all threads             :        1.2 seconds
 
 Elapsed time spent obtaining a license            :        0.5 seconds
 Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
-Elapsed time spent solution - preprocessing       :        0.1 seconds
+Elapsed time spent solution - preprocessing       :        0.0 seconds
 Elapsed time spent computing solution             :        0.1 seconds
 Elapsed time spent solution - postprocessing      :        0.1 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
@@ -635,7 +635,7 @@ Elapsed time spent post-processing model (/POST1) :        0.0 seconds
 Equation solver used                              :            Sparse (symmetric)
 Equation solver computational rate                :        0.0 Gflops
 
-Sum of disk space used on all processes           :        2.3 MB
+Sum of disk space used on all processes           :        1.2 MB
 
 Sum of memory used on all processes               :      188.0 MB
 Sum of memory allocated on all processes          :     2880.0 MB
@@ -663,7 +663,7 @@ Total amount of I/O read from disk                :        0.0 GB
  |                                                                             |
  |-----------------------------------------------------------------------------|
  |                                                                             |
- |        CP Time      (sec) =          0.719       Time  =  16:26:42          |
- |        Elapsed Time (sec) =          4.000       Date  =  04/04/2025        |
+ |        CP Time      (sec) =          1.219       Time  =  14:45:54          |
+ |        Elapsed Time (sec) =          4.000       Date  =  04/05/2025        |
  |                                                                             |
  *-----------------------------------------------------------------------------*
